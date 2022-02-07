@@ -124,7 +124,7 @@ body {
 }
 
 .frontend p {
-    margin-bottom: -15px;
+    margin-bottom: -10px;
 }
 
 .backend {
@@ -141,7 +141,7 @@ body {
 }
 
 .backend p {
-    margin-bottom: -15px;
+    margin-bottom: -10px;
 }
 
 .projects {
@@ -158,13 +158,13 @@ body {
 }
 
 .projects p {
-    margin-bottom: -15px;
+    margin-bottom: -10px;
 }
 
 hr {
     margin-top: -10px;
     width: 80%;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 
 .footer {
