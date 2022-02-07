@@ -161,7 +161,27 @@
         });
     </script>
 
-    <script src="script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        Swal.fire({
+            title: 'Are you sure that you wanna visit my page?',
+            text: "Think one more time!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'No, I don´t!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire(
+                    'Sorry!',
+                    'But you still have to...',
+                    ';)'
+                )
+            }
+        })
+    </script>
 
 </body>
 
