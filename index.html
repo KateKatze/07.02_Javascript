@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/83480692_3336445699759241_5885417836309905408_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=mQW0epncc_UAX_9iyR5&_nc_ht=scontent-vie1-1.xx&oh=00_AT8OpFmeLB373KNcJdZ2V8RWiOyUaXQcj20u_Y22UaRbpA&oe=620728FC">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            background: rgb(7, 7, 7);
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper {
+            width: 100%;
+            height: 50%;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: rgb(10, 10, 10);
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    <title>FE22-CR01-KateK</title>
+</head>
+
+<body>
+
+    <div class="first">
+        <a href="https://codefactory.wien/de/home/"><img src="pics/CFLOGO.png" height=60 width=180 alt="CFLOGO"></a>
+        <input type="text" id="text" name="text" placeholder="Type your question for searching">
+        <button class="login"><a href="http://myblog-katze.bplaced.net/contact.html">LogIn</a></button>
+        <button class="signup"><a href="http://myblog-katze.bplaced.net/contact.html">SignUp</a></button>
+    </div>
+
+    <!-- <div class="intro">
+        <div class="header">
+            <h1>CodeFactory FSWD</h1>
+            <h5>This course is specially designed to introduce you to the WebDev world.</h5>
+        </div>
+    </div> -->
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2017/10/10/21/46/laptop-2838918__340.jpg"></div>
+            <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2020/04/30/15/34/code-5113374__480.jpg"></div>
+            <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2017/08/10/08/47/laptop-2620118__340.jpg"></div>
+            <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2017/07/31/11/31/laptop-2557468__340.jpg"></div>
+            <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2015/05/28/14/38/ux-787980__340.jpg"></div>
+            <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2017/03/04/12/15/programming-2115930__340.jpg"></div>
+            <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2017/09/26/15/13/computer-2788918__340.jpg"></div>
+            <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2018/03/21/21/19/the-conference-3248255__340.jpg"></div>
+            <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2018/10/02/11/13/girl-3718537__340.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="info">
+
+        <h1>Course Technologies</h1>
+
+        <div class="frontend">
+            <h2>Front End</h2>
+            <hr>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JS</p>
+            <p>Angular</p>
+        </div>
+
+        <button class="firstbutton"><a href="http://myblog-katze.bplaced.net/index.html">Click to see more</a></button>
+
+        <div class="backend">
+            <h2>Back End</h2>
+            <hr>
+            <p>MySql</p>
+            <p>PHP</p>
+            <p>Symfony</p>
+        </div>
+
+        <button class="secondbutton"><a href="http://myblog-katze.bplaced.net/categories.html">Click to see more</a></button>
+
+        <div class="projects">
+            <h2>Projects</h2>
+            <hr>
+            <p>Front End Project</p>
+            <p>Full Stack Project</p>
+        </div>
+
+        <button class="thirdbutton"><a href="http://myblog-katze.bplaced.net/press.html">Click to see more</a></button>
+
+    </div>
+
+    <div class="footer">
+        <a href="https://codefactory.wien/de/home/">
+            <img src="pics/CFLOGO.png" height=60 width=180 alt="CFLOGO">
+        </a>
+        <nav>
+            <a href="index.html">Startpage</a> |
+            <a href="page1.html">History</a> |
+            <a href="page2.html">About Us</a> |
+            <a href="page3.html">Blog</a>
+        </nav>
+        <h4> Kate Kogler - CodeFactory &copy; </h4>
+        <p>All rights reserved</p>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+
+</body>
+
+</html>
